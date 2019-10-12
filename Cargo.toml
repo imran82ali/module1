@@ -7,6 +7,6 @@ repository = "https://github.com/imran82ali/module1"
 homepage = "https://github.com/imran82ali/module1"
 license = "MIT/Apache-2.0"
 readme = "README.md"
-description = "First Welcome Library "
+description = "Hello, Crates from PIAIC Extra Class Students "
 
 [dependencies]
