@@ -1,9 +1,9 @@
-# First Welcome
-this is a demo rust library published on crates.io
+# Sample Crate for Student Learning 
+This is a demo rust library published on crates.io
 
 to use this library you have to add following line in dependency section of cargo.toml
 
-`firstwelcome = "0.1.1"`
+`module1 = "0.1.2"`
 
 your cargo.toml file should look like this:
 ```
@@ -14,21 +14,21 @@ authors = ["imran82ali <code.imranali@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-firstwelcome = "0.1.1"
+module1 = "0.1.1"
 ```
 
 In `src/main.rs` you can use like this:
 
 ```
-use firstwelcome;
+use module1;
 fn main() {
     println!("Hello, world!");
-    firstwelcome::hello();
+    module1::hello();
 }
 ```
 following will also work:
 ```
-use firstwelcome::hello;
+use module1::hello;
 fn main() {
     println!("Hello, world!");
     hello();

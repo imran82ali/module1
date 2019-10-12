@@ -1,13 +1,12 @@
 [package]
 name = "module1"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["imran82ali <code.imranali@gmail.com>"]
 edition = "2018"
-repository = "https://github.com/imran82ali/firstwelcome"
-homepage = "https://github.com/imran82ali/firstwelcome"
+repository = "https://github.com/imran82ali/module1"
+homepage = "https://github.com/imran82ali/module1"
 license = "MIT/Apache-2.0"
 readme = "README.md"
 description = "First Welcome Library "
 
 [dependencies]
-
